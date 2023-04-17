@@ -1,0 +1,16 @@
+{
+  "name": "My Flask Add-on",
+  "version": "0.0.0",
+  "slug": "my_flask_addon",
+  "description": "A simple Flask add-on for Home Assistant",
+  "arch": ["aarch64", "amd64", "armhf", "armv7", "i386"],
+  "startup": "application",
+  "boot": "auto",
+  "options": {},
+  "schema": {},
+  "ports": {
+    "5000/tcp": 5000
+  },
+  "map": ["config:rw"],
+  "url": "https://github.com/Wenlin88/my_first_HA_flask_app"
+}
